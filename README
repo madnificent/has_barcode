@@ -22,4 +22,4 @@ which allows you to say:
   p.barcode.to_gif  # renders a gif barcode
 
 
-Copyright (c) 2008 [name of plugin creator], released under the MIT license
+Copyright (c) 2008 MADnificent, released under the MIT license
