@@ -1,1 +1,2 @@
-# Include hook code here
+require 'has_barcode'
+ActiveRecord::Base.send :include, HasBarcode
