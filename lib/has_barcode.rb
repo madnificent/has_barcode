@@ -14,7 +14,11 @@ module HasBarcode
   end
   
   module SingletonMethods
-    # No singletonmethods yet
+    # Finds an object, when the barcode is given.
+    # barcode must be an object that returns a number when to_i calling to_i on it
+    def find_by_barcode( barcode )
+      find( barcode.to_i / 1000 )
+    end
   end
   
   module InstanceMethods
