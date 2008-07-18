@@ -21,5 +21,10 @@ which allows you to say:
   p.barcode.to_png  # renders a png barcode
   p.barcode.to_gif  # renders a gif barcode
 
+a scanned barcode for an object of type Packet can be found by:
+
+  Packet.find_by_barcode( scanned_code )
+
+
 
 Copyright (c) 2008 MADnificent, released under the MIT license
